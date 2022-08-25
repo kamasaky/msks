@@ -514,7 +514,7 @@ a:hover {
   justify-content: space-between;
   color: #fff;
   font-size: 16px;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   font-weight: 600;
   padding: 0;
   white-space: nowrap;
@@ -529,7 +529,7 @@ a:hover {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
-  font-family: Roboto Mono;
+  font-family: Roboto;
 }
 
 .navbar>ul>li>a:before {
@@ -758,7 +758,7 @@ a:hover {
   color: #ffffff;
   padding: 20px 70px 20px 70px ;
   font-weight: bold;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   border-radius: 38px;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 
@@ -768,7 +768,7 @@ a:hover {
   color: #ffffff;
   padding: 20px 70px 20px 70px ;
   font-weight: bold;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   border-radius: 38px;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 
@@ -862,102 +862,6 @@ a:hover {
 }
 
 
-/*--------------------------------------------------------------
-# fero Section
---------------------------------------------------------------*/
-.fero {
-  width: 100%;
-  height: 100vh;
-  background: url(../img/fero-bg.png) top center no-repeat;
-  background-size: cover;
-}
-
-.fero h1 {
-  margin: 0;
-  padding: 10px 10px 200px 0px;
-  font-size: 48px;
-  text-align: center;
-  font-weight: 700;
-  color: #ffffff;
-}
-
-.fero h2 {
-  color: #ffffff;
-  margin: 15px 0 0 0;
-  font-size: 26px;
-}
-
-.fero .btn-get-started {
-  margin-top: 30px;
-  line-height: 0;
-  padding: 15px 40px;
-  border-radius: 4px;
-  transition: 0.5s;
-  color: #ca94f0;
-  background: #4154f1;
-  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
-}
-
-.fero .btn-get-started span {
-  font-family: "Nunito", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 1px;
-}
-
-.fero .btn-get-started i {
-  margin-left: 5px;
-  font-size: 18px;
-  transition: 0.3s;
-}
-
-.fero .btn-get-started:hover i {
-  transform: translateX(5px);
-}
-
-.fero .fero-img {
-  text-align: right;
-}
-
-@media (min-width: 1024px) {
-  .fero {
-    background-attachment: fixed;
-  }
-}
-
-@media (max-width: 991px) {
-  .fero {
-    height: auto;
-    padding: 120px 0 60px 0;
-  }
-
-  .fero .fero-img {
-    text-align: center;
-    margin-top: 80px;
-  }
-
-  .fero .fero-img img {
-    width: 80%;
-  }
-}
-
-@media (max-width: 768px) {
-  .fero {
-    text-align: center;
-  }
-
-  .fero h1 {
-    font-size: 32px;
-  }
-
-  .fero h2 {
-    font-size: 24px;
-  }
-
-  .fero .fero-img img {
-    width: 100%;
-  }
-}
 
 
 
@@ -968,101 +872,6 @@ a:hover {
 
 
 
-
-/*--------------------------------------------------------------
-# town
---------------------------------------------------------------*/
-#town {
-  background: url("../img/town1.png") repeat scroll center center/cover;
-  height: 100vh;
-  width: 100%;
-}
-
-#town .town-content {
-  height: 100vh;
-  text-align: left;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.town-content h1 {
-  font-size: 30px;
-  text-align: left;
-  font-family: Roboto Mono;
-  font-weight: 700;
-  padding-bottom: 50%;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  color: rgb(0, 0, 0);
-}
-
-.town-content p {
-  font-size: 23px;
-  letter-spacing: 3px;
-  padding-inline-end: 50%;
-  margin-top: 0;
-  color: rgb(0, 0, 0);
-  font-weight: 500;
-}
-
-
-
-
-
-/*--------------------------------------------------------------
-# town2
---------------------------------------------------------------*/
-#town2 {
-  background: url("../img/town2.png") repeat scroll center center/cover;
-  height: 100vh;
-  width: 100%;
-}
-
-#town2 .town2-content {
-  height: 100vh;
-  text-align: left;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.town2-content h1 {
-  font-size: 40px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  color: rgb(0, 0, 0);
-}
-
-.town2-content p {
-  font-size: 23px;
-  letter-spacing: 3px;
-  padding-inline-end: 50%;
-  margin-top: 0;
-  color: rgb(0, 0, 0);
-  font-weight: 500;
-}
-
-#business {
-  font-size: 23px;
-  letter-spacing: 3px;
-  padding-inline-end: 50%;
-  margin-top: 0;
-  color: rgb(0, 0, 0);
-  font-weight: 500;
-}
-
-
-#portal {
-  font-size: 23px;
-  letter-spacing: 3px;
-  margin-top: 0;
-  color: rgb(0, 0, 0);
-  font-weight: 500;
-}
 
 
 
@@ -1074,14 +883,14 @@ a:hover {
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   background: #fff;
   border-radius: 20px;
 }
 
 .contact .info-box i {
   font-size: 32px;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   color: #ca94f0;
   border-radius: 50%;
   padding: 8px;
@@ -1090,7 +899,8 @@ a:hover {
 
 #kntkt {
   color: #fff;
-  font-family: Roboto Mono;
+  font-family: Roboto;
+  font-size: 24px;
 
   text-align: center;
 
@@ -1098,7 +908,8 @@ a:hover {
 
 #snami {
   color: #fff;
-  font-family: Roboto Mono;
+  font-family: Roboto;
+  font-size: 14px;
 
   text-align: center;
 
@@ -1107,7 +918,7 @@ a:hover {
 .contact .info-box h3 {
   font-size: 20px;
   color: #000000;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   font-weight: 700;
   text-align: center;
   margin: 10px 0;
@@ -1118,7 +929,7 @@ a:hover {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   text-align: center;
   color:#000000
 }
@@ -1130,7 +941,7 @@ a:hover {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   text-align: center;
   color:#000000
 }
@@ -1146,7 +957,7 @@ a:hover {
   color: #fff;
   background: #ca94f0;
   text-align: left;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   padding: 15px;
   font-weight: 600;
 }
@@ -1159,7 +970,7 @@ a:hover {
   display: none;
   color: #fff;
   background: #ca94f0;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1170,7 +981,7 @@ a:hover {
   background: #fff;
   text-align: center;
   padding: 15px;
-  font-family: Roboto Mono;
+  font-family: Roboto;
 }
 
 .contact .formm .loading:before {
@@ -1191,7 +1002,7 @@ a:hover {
   border-radius: 5px;
   box-shadow: none;
   font-size: 14px;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   border-radius: 20px;
 
 }
@@ -1219,7 +1030,7 @@ a:hover {
   color: #fff;
   transition: 0.4s;
   border-radius: 5px;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   border-radius: 20px;
 }
 
@@ -1402,7 +1213,7 @@ a:hover {
 #uslugi {
   color: white;
   text-align: center;
-  font-family: Roboto Mono;
+  font-family: Roboto;
 }
 
 
@@ -1417,7 +1228,7 @@ a:hover {
   color: #fff;
   font-size: 14px;
   text-align: center;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   padding: 0.5px 0;
 }
 
@@ -1427,7 +1238,7 @@ a:hover {
   color: #ffffff;
   position: relative;
   padding: 0;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   margin: 0 0 20px 0;
 }
 
@@ -1437,7 +1248,7 @@ a:hover {
   color: #ffffff;
   position: relative;
   padding: 0;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   margin: 0 0 20px 0;
 }
 
@@ -1485,7 +1296,7 @@ a:hover {
   font-size: 18px;
   text-align: center;
   font-family: Roboto ;
-  font-weight: lighter;
+  font-weight:lighter;
   margin: 0;
   color: #fff;
 }
@@ -1493,7 +1304,7 @@ a:hover {
 .menu .nav-link h3 {
   font-size: 24px;
   text-align: center;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   font-weight: Bold;
   margin: 0;
   color: #fff;
@@ -1529,7 +1340,7 @@ a:hover {
 .menu .tab-content .tab-header h3 {
   font-size: 24px;
   text-align: center;
-  font-family: Roboto Mono;
+  font-family: Roboto;
   font-weight: Bold;
   margin: 0;
   color: #fff;
@@ -1566,6 +1377,137 @@ a:hover {
   margin: 0;
   margin-bottom: 5px;
   color: #a5ffff;
+  border-bottom: #0e5aff 1px;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Menu2 Section
+--------------------------------------------------------------*/
+
+#menu2 {
+  background: #ffffff;
+}
+
+.menu2 .nav-tabs {
+  border: 0;
+}
+
+.menu2 .nav-link {
+  margin: 0 10px;
+  padding: 10px 5px;
+  transition: 0.3s;
+  color: var(--color-secondary);
+  border-radius: 0;
+  cursor: pointer;
+  height: 100%;
+  border: 0;
+}
+
+@media (max-width: 575px) {
+  .menu2 .nav-link {
+    margin: 0 10px;
+    padding: 10px 0;
+  }
+}
+
+.menu2 .nav-link i {
+  padding-right: 15px;
+  font-size: 24px;
+}
+
+.menu2 .nav-link h4 {
+  font-size: 18px;
+  text-align: center;
+  font-family: Roboto ;
+  font-weight: lighter;
+  margin: 0;
+  color: rgb(0, 0, 0);
+}
+
+.menu2 .nav-link h3 {
+  font-size: 24px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: Bold;
+  margin: 0;
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 575px) {
+  .menu2 .nav-link h4 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+  }
+}
+
+.menu2 .nav-link:hover {
+  color: var(--color-primary);
+}
+
+.menu2 .nav-link.active {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.menu2 .tab-content .tab-header {
+  padding: 30px 0;
+}
+
+.menu2 .tab-content .tab-header p {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  margin-bottom: 0;
+}
+
+.menu2 .tab-content .tab-header h3 {
+  font-size: 24px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: Bold;
+  margin: 0;
+  color: rgb(0, 0, 0);
+}
+
+
+
+.menu2 .tab-content .menu-item {
+  -moz-text-align-last: center;
+  text-align-last: center;
+}
+
+.menu2 .tab-content .menu-item .menu-img {
+  padding: 0 60px;
+  margin-bottom: 15px;
+}
+
+
+.menu2 .tab-content .menu-item h4 {
+  font-size: 24px;
+  text-align: center;
+  font-family: Roboto ;
+  font-weight: lighter;
+  margin: 0;
+  margin-bottom: 5px;
+  color:rgb(0, 0, 0);
+}
+
+.menu2 .tab-content .menu-item h4:hover {
+  font-size: 24px;
+  text-align: center;
+  font-family: Roboto ;
+  font-weight: lighter;
+  margin: 0;
+  margin-bottom: 5px;
+  color: #c17af5;
   border-bottom: #0e5aff 1px;
 }
 
