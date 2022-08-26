@@ -898,28 +898,30 @@ a:hover {
 
 
 #kntkt {
-  color: #fff;
-  font-family: Roboto;
   font-size: 24px;
-
   text-align: center;
+  font-family: Roboto;
+  font-weight: Bold;
+  margin: 0;
+  color: #fff;
 
 }
 
 #snami {
-  color: #fff;
-  font-family: Roboto;
-  font-size: 14px;
-
+  font-size: 18px;
   text-align: center;
+  font-family: Roboto;
+  font-weight:380;
+  margin: 0;
+  color: #fff;
 
 }
 
 .contact .info-box h3 {
-  font-size: 20px;
+  font-size: 24px;
   color: #000000;
   font-family: Roboto;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
   margin: 10px 0;
 }
@@ -927,10 +929,11 @@ a:hover {
 .contact .info-box p {
   padding: 0;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 0;
   font-family: Roboto;
   text-align: center;
+  font-weight:380;
   color:#000000
 }
 
@@ -1233,12 +1236,12 @@ a:hover {
 }
 
 #footer h3 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: bold;
   color: #ffffff;
   position: relative;
   padding: 0;
-  font-family: Roboto;
+  font-family: Roboto Mono;
   margin: 0 0 20px 0;
 }
 
@@ -1253,13 +1256,12 @@ a:hover {
 }
 
 #footer p {
-  font-size: 15;
+  font-size: 18;
   font-style: Roboto;
   font-weight: lighter;
   padding: 0;
-  margin: 0 0 40px 0;
+  margin 0 0 40px 0;
 }
-
 
 
 /*--------------------------------------------------------------
