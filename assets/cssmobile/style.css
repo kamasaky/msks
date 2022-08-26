@@ -756,23 +756,14 @@ a:hover {
   background: #ca94f0;
   border-color: #ca94f0 ;
   color: #ffffff;
-  padding: 20px 70px 20px 70px ;
+  padding: 15px 40px 15px 40px ;
   font-weight: bold;
   font-family: Roboto;
   border-radius: 38px;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 
 }
-.btn.btn-primary:hover {
-  background: #5d0aae;
-  color: #ffffff;
-  padding: 20px 70px 20px 70px ;
-  font-weight: bold;
-  font-family: Roboto;
-  border-radius: 38px;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.15);
 
-}
 
 .hero .overlay-itro {
   background-color: transparent;
@@ -787,12 +778,11 @@ a:hover {
 
 .hero .hero-title {
   color: black;
-  font-family: Roboto;
+  font-family: Roboto Mono;
   font-weight: lighter;
   margin-right: 25%;
-  margin-top: 30%;
-  text-align: left;
-  font-size: 25px;
+  text-align: inherit;
+  font-size: 22px;
 }
 
 @media (min-width: 768px) {
@@ -900,28 +890,30 @@ a:hover {
 
 
 #kntkt {
-  color: #fff;
-  font-family: Roboto;
   font-size: 24px;
-
   text-align: center;
+  font-family: Roboto;
+  font-weight: Bold;
+  margin: 0;
+  color: #fff;
 
 }
 
 #snami {
-  color: #fff;
-  font-family: Roboto;
-  font-size: 14px;
-
+  font-size: 18px;
   text-align: center;
+  font-family: Roboto;
+  font-weight:380;
+  margin: 0;
+  color: #fff;
 
 }
 
 .contact .info-box h3 {
-  font-size: 20px;
+  font-size: 24px;
   color: #000000;
   font-family: Roboto;
-  font-weight: 700;
+  font-weight: 500;
   text-align: center;
   margin: 10px 0;
 }
@@ -929,10 +921,11 @@ a:hover {
 .contact .info-box p {
   padding: 0;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 0;
   font-family: Roboto;
   text-align: center;
+  font-weight:380;
   color:#000000
 }
 
@@ -941,7 +934,7 @@ a:hover {
 #bank{
   padding: 0;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 0;
   font-family: Roboto;
   text-align: center;
@@ -1003,9 +996,10 @@ a:hover {
 .contact .formm textarea {
   border-radius: 5px;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 18px;
   font-family: Roboto;
   border-radius: 20px;
+  font-weight:380;
 
 }
 
@@ -1036,10 +1030,7 @@ a:hover {
   border-radius: 20px;
 }
 
-.contact .formm button[type=submit]:hover {
-  background: #5d0aae;
-  border-radius: 20px;
-}
+
 
 @-webkit-keyframes animate-loading {
   0% {
@@ -1162,13 +1153,7 @@ a:hover {
   margin-bottom: 0;
 }
 
-.features .nav-link:hover {
-  background: #fafbfb;
-}
 
-.features .nav-link:hover h4 {
-  color: #0e5aff;
-}
 
 .features .nav-link.active {
   border-radius: 70px;
@@ -1235,12 +1220,12 @@ a:hover {
 }
 
 #footer h3 {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: bold;
   color: #ffffff;
   position: relative;
   padding: 0;
-  font-family: Roboto;
+  font-family: Roboto Mono;
   margin: 0 0 20px 0;
 }
 
@@ -1255,7 +1240,7 @@ a:hover {
 }
 
 #footer p {
-  font-size: 15;
+  font-size: 18;
   font-style: Roboto;
   font-weight: lighter;
   padding: 0;
@@ -1319,9 +1304,7 @@ a:hover {
   }
 }
 
-.menu .nav-link:hover {
-  color: var(--color-primary);
-}
+
 
 .menu .nav-link.active {
   color: var(--color-primary);
@@ -1371,16 +1354,6 @@ a:hover {
   color:#fff;
 }
 
-.menu .tab-content .menu-item h4:hover {
-  font-size: 24px;
-  text-align: center;
-  font-family: Roboto ;
-  font-weight: lighter;
-  margin: 0;
-  margin-bottom: 5px;
-  color: #a5ffff;
-  border-bottom: #0e5aff 1px;
-}
 
 
 
@@ -1450,9 +1423,6 @@ a:hover {
   }
 }
 
-.menu2 .nav-link:hover {
-  color: var(--color-primary);
-}
 
 .menu2 .nav-link.active {
   color: var(--color-primary);
@@ -1502,15 +1472,5 @@ a:hover {
   color:rgb(0, 0, 0);
 }
 
-.menu2 .tab-content .menu-item h4:hover {
-  font-size: 24px;
-  text-align: center;
-  font-family: Roboto ;
-  font-weight: lighter;
-  margin: 0;
-  margin-bottom: 5px;
-  color: #c17af5;
-  border-bottom: #0e5aff 1px;
-}
 
 
